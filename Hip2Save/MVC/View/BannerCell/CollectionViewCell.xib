@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="Hip2Save" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="215"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="215"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qrC-i5-LGy">
+                        <rect key="frame" x="0.0" y="0.0" width="344" height="215"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kNo-lX-asE" customClass="GradientView" customModule="Hip2Save" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="145" width="344" height="70"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrats to Our 11/14 BIG Thank You Giveaway Winners." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iif-dV-LFf">
+                                <rect key="frame" x="8" y="8" width="328" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="8GP-9c-Ppq"/>
+                            <constraint firstAttribute="bottom" secondItem="iif-dV-LFf" secondAttribute="bottom" constant="20" id="AqN-BV-3WQ"/>
+                            <constraint firstItem="iif-dV-LFf" firstAttribute="top" secondItem="kNo-lX-asE" secondAttribute="top" constant="8" id="WY2-b0-1gk"/>
+                            <constraint firstAttribute="trailing" secondItem="iif-dV-LFf" secondAttribute="trailing" constant="8" id="eSN-BY-VUm"/>
+                            <constraint firstItem="iif-dV-LFf" firstAttribute="leading" secondItem="kNo-lX-asE" secondAttribute="leading" constant="8" id="lLp-RF-Ux6"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="lastColor">
+                                <color key="value" white="0.0" alpha="0.65242401541095896" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kNo-lX-asE" secondAttribute="bottom" id="1U4-L6-JsJ"/>
+                <constraint firstItem="qrC-i5-LGy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JpL-vx-W8P"/>
+                <constraint firstAttribute="trailing" secondItem="qrC-i5-LGy" secondAttribute="trailing" id="OZp-3L-7fq"/>
+                <constraint firstAttribute="trailing" secondItem="kNo-lX-asE" secondAttribute="trailing" id="PcJ-Sl-4Vh"/>
+                <constraint firstItem="kNo-lX-asE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Pj0-1W-2ae"/>
+                <constraint firstAttribute="bottom" secondItem="qrC-i5-LGy" secondAttribute="bottom" id="Qdy-0v-BgS"/>
+                <constraint firstItem="qrC-i5-LGy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qkO-pK-cze"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="344" height="215"/>
+            <connections>
+                <outlet property="banner" destination="qrC-i5-LGy" id="qVg-W4-qQP"/>
+                <outlet property="lTitle" destination="iif-dV-LFf" id="NQe-OT-gHG"/>
+            </connections>
+            <point key="canvasLocation" x="276.80000000000001" y="120.98950524737631"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuTableViewCell" rowHeight="62" id="KGk-i7-Jjw" customClass="MenuTableViewCell" customModule="Hip2Save" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLo-r7-dDl">
+                        <rect key="frame" x="55" y="21" width="45" height="19.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19.5" id="K11-3b-NVu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="e0X-70-ssy">
+                        <rect key="frame" x="16" y="21" width="20" height="20"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="69f-hZ-fz6"/>
+                            <constraint firstAttribute="height" constant="20" id="gcd-oY-lQJ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.048475749790000001" green="0.2037805617" blue="0.306535691" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="CLo-r7-dDl" secondAttribute="bottom" constant="21" id="Bop-S9-n5f"/>
+                    <constraint firstItem="e0X-70-ssy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="OEn-pb-WzD"/>
+                    <constraint firstItem="CLo-r7-dDl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="eJD-ev-ItF"/>
+                    <constraint firstAttribute="bottom" secondItem="e0X-70-ssy" secondAttribute="bottom" constant="20.5" id="fKA-BR-hWZ"/>
+                    <constraint firstItem="CLo-r7-dDl" firstAttribute="leading" secondItem="e0X-70-ssy" secondAttribute="trailing" constant="19" id="wHC-id-mQD"/>
+                    <constraint firstItem="e0X-70-ssy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="zG5-Jy-prv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="icon" destination="e0X-70-ssy" id="nh7-dd-6DZ"/>
+                <outlet property="menuName" destination="CLo-r7-dDl" id="Onl-Rf-VIH"/>
+            </connections>
+            <point key="canvasLocation" x="43.200000000000003" y="67.466266866566727"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="heart" width="128" height="128"/>
+    </resources>
+</document>

@@ -1,0 +1,231 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - Alamofire (4.8.1)
+  - CryptoSwift (1.0.0)
+  - DZNEmptyDataSet (1.8.1)
+  - Firebase/Analytics (5.16.0):
+    - Firebase/Core
+  - Firebase/Auth (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.3.0)
+  - Firebase/Core (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.5.0)
+  - Firebase/CoreOnly (5.16.0):
+    - FirebaseCore (= 5.2.0)
+  - FirebaseAnalytics (5.5.0):
+    - FirebaseCore (~> 5.2)
+    - FirebaseInstanceID (~> 3.4)
+    - GoogleAppMeasurement (= 5.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (5.3.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.2.0):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.4.0):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FSPagerView (0.8.2)
+  - GoogleAnalytics (3.17.0)
+  - GoogleAppMeasurement (5.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GoogleUtilities/AppDelegateSwizzler (5.3.7):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.7)
+  - GoogleUtilities/Logger (5.3.7):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.7):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.7):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.7)"
+  - GoogleUtilities/Reachability (5.3.7):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.7):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.1)
+  - IQKeyboardManagerSwift (6.2.0)
+  - Kingfisher (4.10.1)
+  - KYDrawerController (2.1.0)
+  - MaterialComponents/AnimationTiming (75.0.1)
+  - MaterialComponents/Buttons (75.0.1):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (75.0.1):
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (75.0.1):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (75.0.1)
+  - MaterialComponents/private/KeyboardWatcher (75.0.1):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (75.0.1)
+  - MaterialComponents/private/Overlay (75.0.1)
+  - MaterialComponents/private/Shapes (75.0.1):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/ShadowElevations (75.0.1)
+  - MaterialComponents/ShadowLayer (75.0.1):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Snackbar (75.0.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (75.0.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - SwiftyJSON (4.2.0)
+  - SwiftyXMLParser (5.0.0)
+  - SWXMLHash (5.0.1)
+  - Timepiece (1.3.1)
+  - XMLMapper/Core (1.5.3)
+  - XMLMapper/Requests (1.5.3):
+    - Alamofire (~> 4.1)
+    - XMLMapper/Core
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Alamofire
+  - CryptoSwift
+  - DZNEmptyDataSet
+  - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Core
+  - FSPagerView
+  - GoogleAnalytics
+  - GoogleSignIn
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 4.0)
+  - KYDrawerController
+  - MaterialComponents/Snackbar
+  - NVActivityIndicatorView
+  - SwiftyJSON (~> 4.0)
+  - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
+  - SWXMLHash
+  - Timepiece
+  - XMLMapper/Requests
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActiveLabel
+    - Alamofire
+    - CryptoSwift
+    - DZNEmptyDataSet
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FSPagerView
+    - GoogleAnalytics
+    - GoogleAppMeasurement
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - KYDrawerController
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - nanopb
+    - NVActivityIndicatorView
+    - SwiftyJSON
+    - SWXMLHash
+    - Timepiece
+    - XMLMapper
+
+EXTERNAL SOURCES:
+  SwiftyXMLParser:
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+CHECKOUT OPTIONS:
+  SwiftyXMLParser:
+    :commit: 13c1b5efa33c6238b5560d8625af4f1a24df2bd1
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Firebase: 749a8ff4962f9d8c79dda1966de20f6f77583d67
+  FirebaseAnalytics: d35d47c03c50c73c14a7fd31463c5775843e78a9
+  FirebaseAuth: c9b3ff063c223d2841d97240af547ce511bce19a
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: ea2d1816723ef21492b8e9113303e1350db5e08c
+  FirebaseInstanceID: 97ea7a5dca9afd72c79bfcdddb7a44aa1cbb42a1
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleAppMeasurement: 621f3bc6211d5ba548debe01fafad30cf5ab6859
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
+  MaterialComponents: 9e6875acd311cc88fc0b64d76e2038afc3e71868
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SwiftyXMLParser: 5ebb8793192f403fa8cc691045143906122a7a75
+  SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
+  Timepiece: c0760ec0e545697d86b80424dcd2b4d5ef66cf51
+  XMLMapper: 26bfd75cd204b514b608a41681415f2bdbac1053
+
+PODFILE CHECKSUM: c2a6f3e292f7a6b8d60b4009b6054fca9260fb2e
+
+COCOAPODS: 1.5.3
